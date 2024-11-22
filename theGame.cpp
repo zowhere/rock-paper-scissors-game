@@ -15,5 +15,10 @@ using namespace std;
 int main()
 
 {
+    // to get true randomness
+    srand((unsigned int)(time(NULL)));
+    int playerThrow = 0;
+    int aiThrow = 0;
+    bool draw = false;
     return 0;
 }
